@@ -1,0 +1,271 @@
+/* home */
+section ul li{
+  list-style: none;
+  display: inline-flex;
+  padding: 8px 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background: #e9e7e7;
+  margin-bottom: 1%;
+}
+section ul li.active
+{
+  background: rgb(121, 121, 245);
+  color: #efefef
+  ;
+}
+.brand1{
+    text-align: center;
+    padding: 5%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.b1{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.10)
+),url("../pictures/img_bac.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 8%;
+}
+.bike-image{
+    width:30%;
+    position: relative;
+    margin-left: 35%;
+}
+
+  .nav2 ul ul {
+    background: #4b545f;
+    position: absolute;
+  }
+.nav2 {
+    margin: 30px auto; 
+    text-align: center;
+  }
+  
+  .nav2 ul ul {
+    display: none;
+  }
+  
+    .nav2 ul li:hover > ul {
+      display: block;
+    }
+  
+  
+  .nav2 ul {
+    background: #efefef; 
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 20px;
+    border-radius: 10px;  
+    list-style: none;
+    position: relative;
+    display: inline-table;
+  }
+        .nav2 ul li {
+        float: left;
+        }
+      .nav2 ul li:hover {
+        background: #4b545f;
+        background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+        background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+        background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+      }
+        .nav2 ul li:hover a {
+          color: #fff;
+        }
+      
+      .nav2 ul li a {
+        display: block; padding: 25px 40px;
+        color: #757575; text-decoration: none;
+      }
+        
+      
+    .nav2 ul ul {
+      background: #4b545f; border-radius: 0px; padding: 0;
+      position: absolute; top: 100%;
+    }
+   /* (A) FIXED WRAPPER */
+.hwrap {
+  margin-top: 3%;
+  overflow: hidden; /* HIDE SCROLL BAR */
+  background: rgba(220, 236, 236, 0.322);
+}
+ 
+/* (B) MOVING TICKER WRAPPER */
+.hmove { display: flex; }
+
+/* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
+.hitem {
+  flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+ 
+/* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
+/* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
+@keyframes tickerh {
+  0% { transform: translate3d(100%, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+.hmove { animation: tickerh linear 15s infinite; }
+.hmove:hover { animation-play-state: paused; }   
+@media(max-width:621px) and (min-width:320px){
+  .b1{
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.10)
+),url("../pictures/mobile_view.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+.slogan {
+  background: #f7937ab7;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: 'Style Script', cursive;
+  margin-left: 38%;
+}
+.brand_cont
+{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.div_back{
+  padding-top: 1%;
+}
+.brand{
+  margin-top: -6%;
+  margin-left: -6%;
+}
+.brandi{
+  background-color: white;
+  margin-left: 3%;
+  border-radius: 10px;
+  margin-bottom: 3%;
+  
+}
+.lazy{
+  margin-left: 25px;
+}
+.lazy1{
+  margin-left: 35px;
+}
+.lazy2{
+  margin-left: 25px;
+  margin-top: 15px;
+}
+@media(max-width:548px){
+  .lazy2{
+    margin-left: 140px;
+  }
+} 
+@media(max-width:430px){
+  .slogan{
+    display: none;
+  }
+  .hwrap{
+    display: none;
+  }
+  .active{
+    margin-left:8%;
+  }
+  .foot div{
+    text-align: center;
+    padding-bottom: 2%;
+  }
+}
+/* .upbikes div{
+  background-color: #f0f1ea91;
+} */
+.upbikes ul li{
+  margin-left: 3%;
+  padding-bottom: 1.5%;
+}
+.upbikes div{
+  background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
+  rgba(0, 0, 0, 0.10)),url("../pictures/bike\ key.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.grad{
+  background-color: #f0efef69;
+}
+.emii{
+  background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
+  rgba(0, 0, 0, 0.10)),url("../pictures/emi.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 3%;
+}
+.emi p{
+  padding: 20% 0;
+  text-align: center;
+  margin-top: 15%;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-family: 'Noto Serif', serif;
+  font-size: 150%;
+  color: rgb(255, 255, 255);
+}
+.insure{
+  background-image:linear-gradient(  rgba(70, 69, 69, 0.8),
+  rgba(185, 184, 184, 0.1)),url("../pictures/Insurance.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 3%;
+}
+.warrenty{
+  background-image:linear-gradient(  rgba(70, 69, 69, 0.8),
+  rgba(185, 184, 184, 0.1)),url("../pictures/Warrenty.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 3%;
+}
+.reg{
+  background-image:linear-gradient(  rgba(70, 69, 69, 0.8),
+  rgba(185, 184, 184, 0.1)),url("../pictures/Registration.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 3%;
+}
+@media(max-width:320px){
+  .grad{
+    margin-right: 5%;
+  }
+}
+/* /home */
+/* ev */
+.eev{
+background:url("../pictures/ev_bac.jpg")no-repeat;
+background-size:100%;
+height: 100%;
+display:block;
+background-position: 60%;
+padding:0 !important;
+margin:0;
+}
+.eev .nav2{
+  margin-top: 5%;
+}
