@@ -24,7 +24,7 @@ section ul li.active
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.8),
     rgba(0, 0, 0, 0.10)
-),url("../pictures/img_bac.jpg");
+),url("img_bac.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 8%;
@@ -120,7 +120,7 @@ section ul li.active
     background-image: linear-gradient(
     rgba(0, 0, 0, 0.8),
     rgba(0, 0, 0, 0.10)
-),url("../pictures/mobile_view.jpg");
+),url("mobile_view.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -197,7 +197,7 @@ section ul li.active
 }
 .upbikes div{
   background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
-  rgba(0, 0, 0, 0.10)),url("../pictures/bike\ key.jpeg") ;
+  rgba(0, 0, 0, 0.10)),url("key.jpeg") ;
   background-repeat: no-repeat;
   background-size: 100%;
   align-items: center;
@@ -215,7 +215,7 @@ html,body
 }
 .emii{
   background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
-  rgba(0, 0, 0, 0.10)),url("../pictures/emi.jpg") ;
+  rgba(0, 0, 0, 0.10)),url("emi.jpg") ;
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 3%;
@@ -231,21 +231,21 @@ html,body
 }
 .insure{
   background-image:linear-gradient(  rgba(70, 69, 69, 0.8),
-  rgba(185, 184, 184, 0.1)),url("../pictures/Insurance.jpeg") ;
+  rgba(185, 184, 184, 0.1)),url("Insurance.jpeg") ;
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 3%;
 }
 .warrenty{
   background-image:linear-gradient(  rgba(70, 69, 69, 0.8),
-  rgba(185, 184, 184, 0.1)),url("../pictures/Warrenty.jpeg") ;
+  rgba(185, 184, 184, 0.1)),url("Warrenty.jpeg") ;
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 3%;
 }
 .reg{
   background-image:linear-gradient(  rgba(70, 69, 69, 0.8),
-  rgba(185, 184, 184, 0.1)),url("../pictures/Registration.jpeg") ;
+  rgba(185, 184, 184, 0.1)),url("Registration.jpeg") ;
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 3%;
@@ -258,7 +258,7 @@ html,body
 /* /home */
 /* ev */
 .eev{
-background:url("../pictures/ev_bac.jpg")no-repeat;
+background:url("ev_bac.jpg")no-repeat;
 background-size:100%;
 height: 100%;
 display:block;
