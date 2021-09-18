@@ -122,7 +122,7 @@ section ul li.active
     rgba(0, 0, 0, 0.8),
     rgba(0, 0, 0, 0.10)
 ),url("mobile_view.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
@@ -322,5 +322,6 @@ margin:0;
     background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
   rgba(0, 0, 0, 0.10)),url("electric_bac.jpg") ;
     background-size: cover;
+    background-repeat: no-repeat;
   }
 }
