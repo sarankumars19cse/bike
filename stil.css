@@ -203,6 +203,9 @@ section ul li.active
   .car4{
     margin-left: -9%;
   }
+  .img-div{
+    margin-top: 5%;
+  }
 }
 /* .upbikes div{
   background-color: #f0f1ea91;
@@ -215,7 +218,7 @@ section ul li.active
   background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
   rgba(0, 0, 0, 0.10)),url("key.jpeg") ;
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size:100%;
   align-items: center;
 }
 html,body
@@ -236,6 +239,12 @@ html,body
 }
 .emi{
   background-size: cover;
+}
+.upbikes div{
+  background-size: auto;
+}
+.img-div2{
+  margin-left: 3%;
 }
 }
 .grad{
@@ -285,7 +294,7 @@ html,body
 /* /home */
 /* ev */
 .eev{
-background:url("ev_bac.jpg")no-repeat;
+background-image:url("ev_bac.jpg");
 background-size:100%;
 height: 100%;
 display:block;
@@ -306,4 +315,12 @@ margin:0;
 }
 .img-div1{
   margin-left: 3%;
+  padding: 3% 0;
+}
+@media(max-width:430px){
+  .eev{
+    background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
+  rgba(0, 0, 0, 0.10)),url("electric_bac.jpg") ;
+    background-size: cover;
+  }
 }
