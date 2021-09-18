@@ -269,3 +269,14 @@ margin:0;
 .eev .nav2{
   margin-top: 5%;
 }
+.elec-bikes{
+  margin: 5% 0;
+  border-top: #0f0f0f2a 1px solid;
+  border-bottom: #0f0f0f2a 1px solid;
+}
+.img-div{
+  border: rgba(0, 0, 0, 0.13) 1px solid;
+}
+.img-div1{
+  margin-left: 3%;
+}
