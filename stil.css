@@ -80,7 +80,7 @@ section ul li.active
       
        .nav2 ul li a {
         display: block; padding: 25px 40px;
-        color: #3f3e3e; 
+        color: #222121; 
         text-decoration: none;
       }
       /*  
@@ -179,23 +179,23 @@ section ul li.active
   margin-left: 3%;
   border-radius: 10px;
   margin-bottom: 3%;
-  
+  width: 45%;
 }
-.lazy{
+/* .lazy{
   margin-left: 25px;
 }
 .lazy1{
   margin-left: 35px;
-}
+}*/
 .lazy2{
-  margin-left: 25px;
-  margin-top: 15px;
+  margin-left: -35px;
 }
+/*
 @media(max-width:548px){
   .lazy2{
     margin-left: 140px;
   }
-} 
+}  */
 @media(max-width:430px){
   .slogan{
     display: none;
@@ -214,7 +214,7 @@ section ul li.active
     margin-left: -5%;
   }
   .nav2 ul{
-    background: -webkit-linear-gradient(top, #efefef7a 0%,#bbbbbb6e 100%);
+    background: -webkit-linear-gradient(top, #efefefa9 0%,#bbbbbba9 100%);
   }
   .car1{
     margin-left: -9%;
@@ -227,6 +227,10 @@ section ul li.active
   }
   .img-div{
     margin-top: 5%;
+  }
+  .pet-align{
+    margin-top: 3%;
+    position: relative;
   }
 }
 /* .upbikes div{
