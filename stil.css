@@ -272,6 +272,9 @@ html,body
 .img-div2{
   margin-left: 3%;
 }
+.slogan{
+  display: none;
+}
 }
 .grad{
   background-color: #f0efef69;
