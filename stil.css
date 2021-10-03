@@ -24,7 +24,7 @@ section ul li.active
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.8),
     rgba(0, 0, 0, 0.10)
-),url("img_bac.jpg");
+),url("images/img_bac.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 8%;
@@ -35,24 +35,10 @@ section ul li.active
     margin-left: 35%;
 }
 
-  /* .nav2 ul ul {
-    background: #4b545f;
-    position: absolute;
-  } */
 .nav2 {
     margin: 30px auto; 
     text-align: center;
   }
-  
-  /* .nav2 ul ul {
-    display: none;
-  } */
-  
-    /* .nav2 ul li:hover > ul {
-      display: block;
-    } */
-  
-  
   .nav2 ul {
     background: #efefef; 
     background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
@@ -83,13 +69,7 @@ section ul li.active
         color: #222121; 
         text-decoration: none;
       }
-      /*  
-      
-    .nav2 ul ul {
-      background: #4b545f; border-radius: 0px; padding: 0;
-      position: absolute; top: 100%;
-    } */
-   /* (A) FIXED WRAPPER */
+/* (A) FIXED WRAPPER  */
 .hwrap {
   margin-top: 3%;
   overflow: hidden; /* HIDE SCROLL BAR */
@@ -121,7 +101,7 @@ section ul li.active
     background-image: linear-gradient(
     rgba(0, 0, 0, 0.8),
     rgba(0, 0, 0, 0.10)
-),url("mobile_view.jpg");
+),url("images/mobile_view.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -131,7 +111,7 @@ section ul li.active
     background-image: linear-gradient(
     rgba(0, 0, 0, 0.8),
     rgba(0, 0, 0, 0.10)
-),url("mobile_view.jpg");
+),url("images/mobile_view.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -181,21 +161,9 @@ section ul li.active
   margin-bottom: 3%;
   width: 45%;
 }
-/* .lazy{
-  margin-left: 25px;
-}
-.lazy1{
-  margin-left: 35px;
-}*/
 .lazy2{
   margin-left: -35px;
 }
-/*
-@media(max-width:548px){
-  .lazy2{
-    margin-left: 140px;
-  }
-}  */
 @media(max-width:430px){
   .slogan{
     display: none;
@@ -233,16 +201,13 @@ section ul li.active
     position: relative;
   }
 }
-/* .upbikes div{
-  background-color: #f0f1ea91;
-} */
 .upbikes ul li{
   margin-left: 3%;
   padding-bottom: 1.5%;
 }
 .upbikes div{
   background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
-  rgba(0, 0, 0, 0.10)),url("key.jpeg") ;
+  rgba(0, 0, 0, 0.10)),url("images/key.jpeg") ;
   background-repeat: no-repeat;
   background-size:100%;
   align-items: center;
@@ -281,7 +246,7 @@ html,body
 }
 .emii{
   background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
-  rgba(0, 0, 0, 0.10)),url("emi.jpg") ;
+  rgba(0, 0, 0, 0.10)),url("images/emi.jpg") ;
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 3%;
@@ -300,17 +265,13 @@ html,body
   margin-top: 10%;
 }
 .warrenty{
-  /* background-image:linear-gradient(  rgba(70, 69, 69, 0.8),
-  rgba(185, 184, 184, 0.1)),url("Warrenty.jpeg") ; */
-  background-image: url("Warrenty.jpeg");
+  background-image: url("images/Warrenty.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 3%;
 }
 .reg{
-  /* background-image:linear-gradient(  rgba(70, 69, 69, 0.8),
-  rgba(247, 240, 240, 0)),url("Registration.jpeg") ; */
-  background-image: url("Registration.jpeg");
+  background-image: url("images/Registration.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 3%;
@@ -323,7 +284,7 @@ html,body
 /* /home */
 /* ev */
 .eev{
-background-image:url("ev_bac.jpg");
+background-image:url("images/ev_bac.jpg");
 background-size:100%;
 height: 100%;
 display:block;
@@ -349,7 +310,7 @@ margin:0;
 @media(max-width:430px){
   .eev{
     background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
-  rgba(0, 0, 0, 0.10)),url("electric_bac.jpg") ;
+  rgba(0, 0, 0, 0.10)),url("images/electric_bac.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
   }

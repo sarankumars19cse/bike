@@ -3,11 +3,11 @@ $(document).ready(function()
     $('.list').click(function(){
         const value =$(this).attr('data-filter');
         if(value == 'all'){
-            $('.brandi').show('1000');
+            $('.brandi').show('500');
         }
         else{
-            $('.brandi').not('.'+value).hide('1000');
-            $('.brandi').filter('.'+value).show('1000');
+            $('.brandi').not('.'+value).hide('500');
+            $('.brandi').filter('.'+value).show('500');
         }
     })
     $('.list').click(function(){
