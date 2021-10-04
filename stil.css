@@ -100,12 +100,12 @@ section ul li.active
 }
 .hmove { animation: tickerh linear 15s infinite; }
 .hmove:hover { animation-play-state: paused; }   
-@media(max-width:621px) and (min-width:320px){
+@media(max-width:621px){
   .b1{
     background-image: linear-gradient(
     rgba(0, 0, 0, 0.8),
     rgba(0, 0, 0, 0.10)
-),url("images/img_bac.jpg");
+),url("images/petrol_bac.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 40%;
@@ -142,7 +142,7 @@ section ul li.active
   align-items: center;
   text-align: center;
   font-family: 'Style Script', cursive;
-  margin-left: 38%;
+  margin-left: 36%;
 }
 .brand_cont
 {
@@ -170,9 +170,6 @@ section ul li.active
   margin-left: -35px;
 }
 @media(max-width:430px){
-  .slogan{
-    display: none;
-  }
   .hwrap{
     display: none;
   }
@@ -229,6 +226,12 @@ html,body
     overflow-x: hidden; 
 }
 @media(max-width:769px){
+  .b1{
+    background-position-x: 30%;
+  }
+.slogan{
+  margin-left: 30%;
+}
 .eeve{
   margin-left: -20%;
 }
@@ -244,9 +247,6 @@ html,body
 }
 .img-div2{
   margin-left: 3%;
-}
-.slogan{
-  display: none;
 }
 }
 .grad{
@@ -321,6 +321,9 @@ margin:0;
   rgba(0, 0, 0, 0.10)),url("images/electric_bac.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .slogan{
+    margin-left: 15%;
   }
 }
 .pet{
