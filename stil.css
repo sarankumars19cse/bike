@@ -100,7 +100,7 @@ section ul li.active
 }
 .hmove { animation: tickerh linear 15s infinite; }
 .hmove:hover { animation-play-state: paused; }   
-@media(max-width:621px){
+@media(max-width:770px){
   .b1{
     background-image: linear-gradient(
     rgba(0, 0, 0, 0.8),
@@ -111,7 +111,7 @@ section ul li.active
     background-position-x: 40%;
   }
 }
-/* @media(max-width:430px) and (min-width:370px){
+@media(max-width:430px) and (min-width:370px){
   .b1{
     background-image: linear-gradient(
     rgba(0, 0, 0, 0.8),
@@ -121,7 +121,7 @@ section ul li.active
     background-repeat: no-repeat;
     background-position: 50%;
   }
-} */
+}
 @media(max-width:370px) and (min-width:380px){
   .b1{
     background-image: linear-gradient(
@@ -170,6 +170,10 @@ section ul li.active
   margin-left: -35px;
 }
 @media(max-width:430px){
+  .slogan{
+    background: #f7937a52;
+    color: rgba(255, 255, 255, 0.712);
+  }
   .hwrap{
     display: none;
   }
@@ -226,9 +230,6 @@ html,body
     overflow-x: hidden; 
 }
 @media(max-width:769px){
-  .b1{
-    background-position-x: 30%;
-  }
 .slogan{
   margin-left: 30%;
 }
