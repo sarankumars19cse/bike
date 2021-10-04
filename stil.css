@@ -121,6 +121,7 @@ section ul li.active
     background-repeat: no-repeat;
     background-position: 50%;
   }
+
 }
 @media(max-width:370px) and (min-width:380px){
   .b1{
@@ -210,6 +211,10 @@ section ul li.active
     display: none;
   }
 }
+.grad{
+  background-color: #d9d9d9;
+background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+}
 .upbikes ul li{
   margin-left: 3%;
   padding-bottom: 1.5%;
@@ -249,9 +254,6 @@ html,body
 .img-div2{
   margin-left: 3%;
 }
-}
-.grad{
-  background-color: #f0efef69;
 }
 .emii{
   background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
@@ -357,4 +359,9 @@ margin:0;
   color: #efefef;
   text-align: center;
   margin-top: 3%;
+}
+.color{
+  background-color: #d9d9d9;
+background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+
 }
