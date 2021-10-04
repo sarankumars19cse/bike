@@ -317,25 +317,20 @@ margin:0;
     background-size: cover;
     background-repeat: no-repeat;
   }
-  .pet{
-    background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
-  rgba(0, 0, 0, 0.10)),url("images/pet_mob_bac.jpg") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
 }
 .pet{
-  background-image:url("images/petrol_bac.jpg");
+  background-image:linear-gradient(  rgba(0, 0, 0, 0.8),
+  rgba(0, 0, 0, 0.11)),url("images/petrol_mbac.jpg");
   background-size:100%;
   background-repeat: no-repeat;
   height: 100%;
   display:block;
-  background-position: 60%;
+  background-position: 70%;
   padding:0 !important;
   margin:0;
 }
 .pet .nav2{
-  margin-top: 8%;
+  margin-top: 5%;
 }
 .pet h1{
   font-family: 'IBM Plex Serif', serif;
@@ -343,6 +338,11 @@ margin:0;
   text-align: center;
   border: white 2px solid;
   border-radius: 10vh;
-  margin: 8% 30%;
+  margin: 5% 30%;
   background-color: #bbbbbb85;
+}
+.pet .news{
+  color: #efefef;
+  text-align: center;
+  margin-top: 3%;
 }
