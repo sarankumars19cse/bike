@@ -2,13 +2,6 @@
 html{
   scroll-behavior: smooth;
 }
-.upDiv {
-  margin-top: 2%;
-  margin-right: 2%;
-  text-align: right;
-  position: fixed;
-  z-index: 1000;
-}
 section ul li{
   list-style: none;
   display: inline-flex;
