@@ -213,6 +213,11 @@ section ul li.active
     display: none;
   }
 }
+.backhome{
+  margin: -46px 0 0 0;
+  position: fixed;
+  z-index: 1000;
+}
 .upbikes ul li{
   margin-left: 3%;
   padding-bottom: 1.5%;
